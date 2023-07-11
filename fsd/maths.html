@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Integer Operations</title>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+    }
+
+    body.dark-mode{
+      background-color: black;
+      color: white;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    label {
+      display: inline-block;
+      padding: 10px;
+      background-color: #ccc;
+      color: black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <input type="checkbox" id="modeToggle">
+  <label for="modeToggle">Switch</label>
+  <br><br>
+  <input type="number" id="num1" placeholder="Enter first number"><br><br>
+  <input type="number" id="num2" placeholder="Enter second number"><br><br>
+
+  <button onclick="performAddition()">Add</button>
+  <button onclick="performSubtraction()">Subtract</button>
+  <button onclick="performMultiplication()">Multiply</button>
+  <button onclick="performDivision()">Divide</button>
+
+  <p id="result"></p>
+  <script src="assets/js/math.js"></script>
+</body>
+</html>

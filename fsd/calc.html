@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <style>
+    .calculator {
+      width:220px;
+      background-color: #f4f4f4;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 10px;
+    }
+    .calculator button {
+      width: 50px;
+      height: 50px;
+      padding: 5px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      background-color: #f4f4f4;
+    }
+    
+    .calculator button:hover {
+      background-color: #ccc;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    .row button:nth-child(1) {
+      margin-left: 8px;
+    }
+    .row:last-child button:last-child {
+      background-color: #f90;
+      color: #fff;
+      border-radius: 50%;
+    }
+    #res{
+        width: 93%;
+        height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="res">
+    <div class="row">
+        <button>C</button>
+        <button><-</button>
+        <button>%</button>
+        <button>/</button>
+      </div>
+      <div class="row">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>*</button>
+    </div>
+    <div class="row">
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>-</button>
+    </div>
+    <div class="row">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>+</button>
+    </div>
+    <div class="row">
+      <button>log</button>
+      <button>0</button>
+      <button>.</button>
+      <button>=</button>
+    </div>
+  </div>
+</body>
+</html>

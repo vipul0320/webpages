@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:cyan;
+    text-align: left;
+}
+header ul , nav ul {
+    list-style-type:none;
+    word-spacing: 50px;
+}
+header li , nav li{
+    display: inline-block;
+    /* background-color: aqua; */
+    padding: 10px;
+    
+}
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+nav{
+    background-color: black;
+}
+nav a{
+    color: aqua;
+    font-size: 18px;
+    text-decoration: none;
+}
+section{
+    margin-bottom: 30px;
+}
+.slider{
+    height: 600px;
+    background-image: url('../images/bg.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

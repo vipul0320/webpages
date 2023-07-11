@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">wlcm to the js world</h1>
+    <button onclick="show()"> show data</button>
+    <script>
+        function show(){
+            let d = document.getElementById('heading');
+            console.log(d)
+            console.log(d.innerText)
+            d.innerHTML="i m changed";
+            console.log(d)
+            console.log(d.innerText)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.conic{
+    height: 200px;
+    width:200px;
+    background-color: aqua;
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+    background-image: linear-gradient(darkblue,deeppink,yellowgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+}

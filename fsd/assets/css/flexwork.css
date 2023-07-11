@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+}
+h1 , h2, h3, h4, h5, h6
+{
+    font-family: 'Raleway', sans-serif;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgb(5, 5, 45);
+}
+.flex-container , .about-us , .services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-header{
+    flex: 50%;
+    /* background-color: antiquewhite; */
+}
+.right-header{
+    flex: 50%;
+    text-align: right;
+}
+header ul, nav ul, footer ul{
+    list-style-type: none;
+    
+}
+header li, nav li{
+    display: inline-block;
+    padding: 20px;
+
+}
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+nav{
+ background-color:black; 
+ position: sticky;
+ top: 0;
+ z-index: 100;
+}
+.left-nav{
+    flex: 20%;
+}
+.right-nav{
+    flex: 80%;
+    text-align: right;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}
+nav li:hover{
+    background-color: rgb(6, 6, 57);
+    
+}
+nav li:hover a{
+    color: wheat;
+}
+/* nav .active:hover{
+    color: red;
+} */
+.slider{
+    height: 500px;
+    background-image: url('../images/pxfuel.jpg');
+    background-size: cover;
+}
+.about-us{
+
+    /* background-color: aqua; */
+    margin-top: 20px;
+    padding: 40px;
+}
+.left-about{
+    flex: 40%;
+    background-image: url('../images/logo.avif');
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right-about {
+    flex: 60%;
+}
+
+.about-us h1{
+    padding: 30px;
+    padding-left: 0;
+    font-size: 50px;
+    
+
+}
+.about-us p{
+    font-size: 20px;
+    line-height: 30px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(5, 5, 53);
+    color: wheat;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.services{
+    /* gap: 5px; */
+    padding: 40px;    
+}
+.box{
+    flex: 33.3%;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 10px 0;
+}
+.heading{
+    font-size: 70px;
+    text-align: center;
+
+}
+footer {
+    height: 400px;
+    background-color: #f5f5f5;
+    padding: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    
+  }
+
+  .grid-container {
+    display: flex;
+  }
+  .item1{
+    flex:40%;
+    color: black;
+    font-weight: 700;
+    font-size: 15px
+  }
+  .item2, .item3, .item4{
+    flex: 20%;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .item1 li {
+    display: inline-block;
+  }
+  .item1 li a{
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+  }
+  .item2 h2, .item3 h2, .item4 h2{
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    margin-left: 35px;
+  }  
+  .item2 ul, .item3 ul, .item4 ul{
+    list-style-type: disc ;
+    text-align: left;
+  }
+  .item2 li a, .item3 li a, .item4 li a{
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  }
+  .grid-container2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item6{
+    background-color: rgb(2, 2, 47);
+    color: antiquewhite;
+    text-align: center;
+    width: 808px;
+    height: 550px;
+  }
+  hr {
+    border-top: 5px solid black;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.grid-container5{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 20px;
+    padding: 0px;
+
+}
+.flex-item8{
+    text-align: center;
+    padding: 0px;
+    width: 25%;
+    background-size: cover;
+    color: azure;
+
+  } 
+  .flex-item8 img{
+    height: 500px;
+  }
+  .container {
+    margin-top: 60px;
+    margin-left: 24%;
+    text-align: center;
+    height: 89%;
+    width: 50%;
+}
+
+h4, h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.area {
+    margin: 10px 0;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]  {
+    margin: 6px 0;
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 50px;
+}

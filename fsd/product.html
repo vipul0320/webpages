@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+            Print follwing product details into table.
+            pid, name ,price, qty, total
+    */
+
+        let pid, pname, price, qty, total;
+        pid = prompt("Enter the product ID : ");
+        pname = prompt("Enter the name ");
+        price = parseInt(prompt("Enter the Price "));
+        qty = parseInt(prompt("Enter the Qty "));
+        total = price * qty;
+        document.write(`
+            <table border="1" width="50%" align="center">
+                <tr>
+                    <th> PID  </th>
+                    <th> Pname </th>
+                    <th> Price </th>
+                    <th> Qty </th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                        <td> ${pid} </td>
+                        <td> ${pname} </td>
+                        <td> ${price} </td>
+                        <td> ${qty} </td>
+                        <td> ${total} </td>
+                </tr>
+            </table>
+        `);
+
+
+    </script>
+</body>
+
+</html>

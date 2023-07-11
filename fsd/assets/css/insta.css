@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.grid-container .grid-container2 .grid-container3{
+    display: grid;
+    flex-wrap: wrap;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .flex-item1,.flex-item2,.flex-item3{
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .flex-item3 .btn{
+    background-color: rgb(0, 152, 240);
+    color: white;
+    border-radius: 15%;
+    font-size: 15px;
+    padding: 0%;
+  }
+  .flex-item3{
+    width: 2%;
+    flex:30%
+  }
+  .flex-item1{
+    flex: 30%;
+    width: 40px;
+    font-family: 'MyFont';
+    font-size: 30px;
+    font-weight:200
+  }
+  .flex-item2{
+    flex: 10%;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .flex-item3 button{
+    height: 40px;
+    width: 80px;
+    background-color: black; 
+    border:0; 
+    color:rgb(0, 152, 240);
+    font-weight: 700;
+  }
+  .flex-item2 input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    text-align:center;
+    border-color:rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+}
+.nav{
+    display: flex;
+}
+.flex-item4{
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.flex-item4 img{
+    border-radius:50%;
+}
+.flex-item5{
+    margin-top:30px;
+    margin-left: 120px;
+}
+pre{
+    font-size: 20px;
+  }
+  .post{
+    font-size: 15px;
+    font-weight: 800;
+  }
+ .flex-item5 button{
+    width:80px;
+    height: 30px;
+    border-radius: 10%;
+    border-color: rgb(219, 210, 210);
+    font-weight: 600;
+  }
+  .highlights{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+  .flex-item6{
+    margin-left: 50px;
+  }
+  .flex-item6 img{
+    border-radius: 50%;
+    height: 80px;
+  }
+  .headings{
+    display: flex;
+    margin-left:35%;
+  }
+  .flex-item7{
+    padding-left: 70px;
+    font-size: 15px;
+  }
+  .grid-container5{
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 280px;
+  }
+  .flex-item8{
+    text-align: center;
+    padding: 3px;
+  } 
+  .flex-item8 img{
+    max-width: 100%;;
+    max-height: 300px;
+  }
+  @font-face {
+    font-family: 'MyFont';
+    src: url('/assets/fonts/MyFont.otf') format('opentype');
+  }
+  
+  .flex-item1{
+    font-family: 'MyFont';
+    font-size: 30px;
+  }
+  .footer pre{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  
